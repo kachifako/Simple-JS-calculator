@@ -10,7 +10,7 @@ alert("Your answer is " + " " + result)
 function inputOperands(){
    
     let operand1 = parseInt (prompt("Enter first number"))
-    let operator = prompt("Enter operator ( +, /, % or - )")
+    let operator = prompt("Enter operator ( +, *, /, % or - )")
     let operand2 = parseInt(prompt ("Enter second number")) 
     
  
