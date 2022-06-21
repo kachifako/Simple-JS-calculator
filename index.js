@@ -3,15 +3,15 @@ let result= ""
 
 alert ("Welcome!")
 inputOperands()
-alert("your answer is " + " " + result)
+alert("Your answer is " + " " + result)
 
 
 
 function inputOperands(){
    
     let operand1 = parseInt (prompt("Enter first number"))
-    let operator = prompt("Enter operator (e.g '+' )")
-    let operand2 = parseInt(prompt ("enter second number")) 
+    let operator = prompt("Enter operator ( +, /, % or - )")
+    let operand2 = parseInt(prompt ("Enter second number")) 
     
  
     
